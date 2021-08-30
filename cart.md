@@ -60,7 +60,7 @@ $tax = Cart::getModel()->calculateTax(false);
 
 > Before moving on, you may check the [discount documentation](/docs/discount) about managing discounts.
 
-Unlike TAXes, discounts are stored directly on the model as an aggregated value.
+Unlike Taxes, discounts are stored directly on the model as an aggregated value.
 
 ```php
 use Bazar\Support\Facades\Cart;
